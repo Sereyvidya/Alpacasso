@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --font-display: "Bungee", "sans-serif";
+  --breakpoint-3xl: 1920px;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-display);
+  }
+
+  body {
+    @apply bg-gray-200;
+    overflow-x: hidden;
+  }
+}
+
+.btn {
+  @apply cursor-pointer border-2 border-blue-950 rounded-full m-1 py-1 px-2 text-blue-950
+}
+
+.btn-container {
+  @apply flex flex-wrap justify-center
+}
