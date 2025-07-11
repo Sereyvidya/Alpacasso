@@ -1,12 +1,71 @@
-# React + Vite
+# 🦙 Alpacasso
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Customize your very own alpaca avatar with styles, accessories, and flair — then download it with a name of your choice!
 
-Currently, two official plugins are available:
+![Screenshot](./screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎨 Mix and match alpaca styles: hair, eyes, mouth, ears, and more
+- 🎲 Randomize button for surprise combinations
+- 📝 Name your alpaca
+- 📥 Download your creation as a PNG image
+- 🎯 Built with **React**, **Vite**, and **Tailwind CSS**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/Sereyvidya/Alpacasso
+cd Alpacasso
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+App will be running at: `http://localhost:5173`
+
+## 🛠 Tech Stack
+
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 📦 `html2canvas-pro`
+- 📦 `react-icons`
+
+## 🌍 Deploying
+
+This project was deployed on Vercel: [https://alpacasso.vercel.app/](https://alpacasso.vercel.app/)
+
+## 📁 Folder Structure
+
+```bash
+├── public/
+│   └── [images for accessories, hair, etc.]
+├── src/
+│   ├── components/
+│   │   ├── AlpacaPreview.jsx
+│   │   └── ControlPanel.jsx
+│   ├── App.jsx
+│   └── index.css
+├── index.html
+└── package.json
+```
+
+## 🙌 Credits
+
+- Inspired by the [Alpaca image generator website](https://www.codementor.io/projects/web/alpaca-image-generator-website-ce2oc0eus8) challenge from DevProjects.
+
+## 🧼 License
+
+MIT — feel free to remix and share!
