@@ -2,6 +2,12 @@
 
 Customize your very own alpaca avatar with styles, accessories, and flair — then download it with a name of your choice!
 
+## 🚀 Live Demo
+
+Check it out here: [https://alpacasso.vercel.app/](https://alpacasso.vercel.app/)
+
+## 📸 Screenshot
+
 ![Screenshot](./screenshot.png)
 
 ## ✨ Features
@@ -10,6 +16,7 @@ Customize your very own alpaca avatar with styles, accessories, and flair — th
 - 🎲 Randomize button for surprise combinations
 - 📝 Name your alpaca
 - 📥 Download your creation as a PNG image
+- 🌐 Fully responsive and mobile-friendly
 - 🎯 Built with **React**, **Vite**, and **Tailwind CSS**
 
 ## 🚀 Getting Started
@@ -43,10 +50,6 @@ App will be running at: `http://localhost:5173`
 - 📦 `html2canvas-pro`
 - 📦 `react-icons`
 
-## 🌍 Deploying
-
-This project was deployed on Vercel: [https://alpacasso.vercel.app/](https://alpacasso.vercel.app/)
-
 ## 📁 Folder Structure
 
 ```bash
@@ -66,6 +69,6 @@ This project was deployed on Vercel: [https://alpacasso.vercel.app/](https://alp
 
 - Inspired by the [Alpaca image generator website](https://www.codementor.io/projects/web/alpaca-image-generator-website-ce2oc0eus8) challenge from DevProjects.
 
-## 🧼 License
+## 🪪 License
 
 MIT — feel free to remix and share!
